@@ -1,0 +1,22 @@
+{
+  "public/assets/images/hero.jpg": {
+    "file": "assets/hero-DPK3fkMQ.jpg",
+    "src": "public/assets/images/hero.jpg"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-CBQ-VCrq.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-BpWKjV1i.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/scss/app.scss": {
+    "file": "assets/app-DCOFPd1R.css",
+    "src": "resources/scss/app.scss",
+    "isEntry": true
+  }
+}
