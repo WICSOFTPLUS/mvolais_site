@@ -1,0 +1,77 @@
+
+main.contact{
+
+section.hero{
+height: 300px; /* La section prend toute la hauteur de l'écran */
+  background-image: url('/public/assets/images/hero.jpg'); /* Met ici le chemin vers ton image de fond */
+  background-size: cover; /* L'image couvre toute la largeur et la hauteur */
+  background-position: top center; /* Centre l'image */
+  background-repeat: no-repeat; /* Evite la répétition de l'image */
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+    &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Un fond sombre pour améliorer la lisibilité du texte */
+    z-index: 1;
+    }
+
+    .hero-content {
+    z-index: 2; /* Place le contenu devant l'overlay */
+    text-align: center;
+    h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    }
+    p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    }
+        // .btn-hero {
+        // padding: 15px 30px;
+        // background-color: #007bff;
+        // color: white;
+        // text-decoration: none;
+        // border-radius: 5px;
+        // font-size: 1.2rem;
+        // transition: background-color 0.3s ease;
+        // }
+    }
+
+
+}
+
+ textarea{
+
+      height: 150px;
+      resize: none;
+    }
+
+    input,textarea{
+
+      &:focus{
+        // outline: 2px solid $danger;
+        box-shadow: none !important;
+        border: none;
+      }
+    }
+    .btnsend{
+
+    //   background-color: $danger;
+      margin-top: 10px;
+    //   color: $white;
+      font-weight: 700;
+      font-size: 1.1em;
+    }
+
+}
