@@ -63,5 +63,8 @@ window.addEventListener('load', () => {
       once: false,
       mirror: true
     })
+
+    document.querySelector("#load").style.display = "none"
+    document.querySelector("#load").remove()
   });
 
