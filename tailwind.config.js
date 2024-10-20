@@ -10,11 +10,18 @@ export default {
     theme: {
         colors: {
           ...colors,
-            'primary': '#095f9a',
+            'primary': '#04639b',
+            'primary2': '#04639b',
             'secondary': '#7d7d7d',
             'tertiary': "#000"
     },
-    extend: {},
+        extend: {},
+    backgroundColor: (theme) => ({
+      ...theme('colors'),
+    }),
+    borderColor: (theme) => ({
+      ...theme('colors'),
+    }),
   },
   plugins: [],
 }

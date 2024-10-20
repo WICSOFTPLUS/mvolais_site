@@ -1,8 +1,8 @@
-<footer class="w-full bg-blueGray-950">
+<footer class="w-full bg-zinc-600">
     <div class="container">
         <div class="row flex justify-between gap-9 ">
             <div class="col items-end">
-               <div class="logo w-[80px]">
+               <div class="logo w-[80px] ">
                     <img class="w-full object-contain" src="{{ asset('/assets/images/logo.png') }}" alt="">
                 </div>
                 <div class="desc text-[#fffaf0] mb-3">

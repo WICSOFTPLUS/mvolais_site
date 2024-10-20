@@ -4,18 +4,18 @@
     "src": "public/assets/images/hero.jpg"
   },
   "resources/css/app.css": {
-    "file": "assets/app-CBQ-VCrq.css",
+    "file": "assets/app-BmWcAEt8.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/js/app.js": {
-    "file": "assets/app-OkqdyCW-.js",
+    "file": "assets/app-B5iAJAMS.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true
   },
   "resources/scss/app.scss": {
-    "file": "assets/app-D0zYjCoy.css",
+    "file": "assets/app-B9RfpH_g.css",
     "src": "resources/scss/app.scss",
     "isEntry": true
   }

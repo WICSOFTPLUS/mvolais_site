@@ -103,7 +103,48 @@ section.section-service{
                 overflow: hidden;
                 border-radius: 10px;
                 margin-inline: auto;
-                background-color: red;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 5px;
+                    object-fit: cover;
+                }
+            }
+            }
+
+        }
+    }
+}
+
+
+section.section-division{
+    width: 100%;
+    .rows{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        .cols{
+            width: calc(100% / 3 - 14px);
+            margin: 5px;
+            .card{
+                border-radius: 8px;
+                padding: 20px;
+                height: 100%;
+                display: flex;
+                gap: 10px;
+                width: 100%;
+                border: none;
+                .bas{
+                    width: 100%;
+                }
+            .content-image{
+                width: 300px;
+                height: 230px;
+                overflow: hidden;
+                border-radius: 10px;
+                margin-inline: auto;
                 img{
                     width: 100%;
                     height: 100%;
@@ -171,6 +212,273 @@ width: 100%;
         }
     }
 }
+
+
+section.section-partenaire{
+    width: 100%;
+    .item{
+        width: 100%;
+        margin: 5px;
+        height: 80px;
+        padding: 1rem 0;
+        overflow: hidden;
+        img{
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+            transform: scale(1.4);
+        }
+        }
+}
+}
+
+
+@media (max-width: 640px) {
+
+    main.home{
+    width: 100%;
+    section.hero{
+        height: 480px; /* La section prend toute la hauteur de l'écran */
+        background-image: url('/public/assets/images/hero.jpg'); /* Met ici le chemin vers ton image de fond */
+        background-size: cover; /* L'image couvre toute la largeur et la hauteur */
+        background-position: top center; /* Centre l'image */
+        background-repeat: no-repeat; /* Evite la répétition de l'image */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        position: relative;
+        width: 100%;
+        &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4); /* Un fond sombre pour améliorer la lisibilité du texte */
+        z-index: 1;
+        }
+
+        .hero-content {
+        z-index: 2; /* Place le contenu devant l'overlay */
+        text-align: center;
+        width: 100%;
+        padding: 1rem;
+        h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        font-weight: bold;
+        }
+        p {
+        font-size: 1rem;
+        margin-bottom: 30px;
+        }
+            // .btn-hero {
+            // padding: 15px 30px;
+            // background-color: #007bff;
+            // color: white;
+            // text-decoration: none;
+            // border-radius: 5px;
+            // font-size: 1.2rem;
+            // transition: background-color 0.3s ease;
+            // }
+        }
+
+
+    }
+
+    section.section-presentation{
+        .row{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 1rem;
+            flex-direction: column;
+            &:last-child{
+                flex-direction: column-reverse;
+            }
+            .col{
+                width: 100%;
+                .content-image{
+                width: 100%;
+                overflow: hidden;
+                border-radius: 10px;
+                    img{
+                        max-width: 100%;
+                        height: auto;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    section.section-service{
+        width: 100%;
+        .rows{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+            .cols{
+                width: 100%;
+                margin: 5px;
+                .card{
+                    border-radius: 8px;
+                    padding: 20px;
+                    height: 100%;
+                    display: flex;
+                    gap: 10px;
+                    width: 100%;
+                    border: none;
+                    .bas{
+                        width: 100%;
+                    }
+                .content-image{
+                    width: 300px;
+                    height: 230px;
+                    overflow: hidden;
+                    border-radius: 10px;
+                    margin-inline: auto;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 5px;
+                        object-fit: cover;
+                    }
+                }
+                }
+
+            }
+        }
+    }
+
+      section.section-division{
+        width: 100%;
+        .rows{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+            .cols{
+                width: 100%;
+                margin: 5px;
+                .card{
+                    border-radius: 8px;
+                    padding: 20px;
+                    height: 100%;
+                    display: flex;
+                    gap: 10px;
+                    width: 100%;
+                    border: none;
+                    .bas{
+                        width: 100%;
+                    }
+                .content-image{
+                    width: 300px;
+                    height: 230px;
+                    overflow: hidden;
+                    border-radius: 10px;
+                    margin-inline: auto;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 5px;
+                        object-fit: cover;
+                    }
+                }
+                }
+
+            }
+        }
+    }
+
+    section.section-bande{
+        width: 100%;
+        .rows{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            width: 100%;
+            flex-wrap: wrap;
+            .cols{
+                width: 100%;
+                .cards{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    section.section-row{
+    width: 100%;
+    .row{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 0;
+            flex-direction: column;
+            // background-color: red;
+            margin: 0;
+            .col{
+                width: 100%;
+                &:first-child{
+                    z-index: 1;
+                }
+                .desc{
+                    // background-color: red;
+                    background-color: #fff;
+                    z-index: 1px;
+                    width: 100%;
+                    padding: 1rem;
+                    border-radius: 10px;
+                    margin-left: 0;
+                    margin-bottom: -60px;
+                }
+                .content-image{
+                width: 100%;
+                height: 400px;
+                overflow: hidden;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        background-position: top;
+                    }
+                }
+            }
+        }
+    }
+
+
+    section.section-partenaire{
+        width: 100%;
+        .items{
+            flex-wrap: wrap;
+        }
+        .item{
+            width: calc(100% / 2 - 10px);
+            margin: 5px;
+            height: 80px;
+            padding: 1rem 0;
+            overflow: hidden;
+            img{
+                object-fit: contain;
+                width: 100%;
+                height: 100%;
+                transform: scale(1.4);
+            }
+            }
+    }
+    }
 
 
 }

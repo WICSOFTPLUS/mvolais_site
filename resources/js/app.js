@@ -58,13 +58,22 @@ import './bootstrap';
 
 window.addEventListener('load', () => {
     AOS.init({
-      duration: 500,
+      duration: 300,
       easing: 'ease-in-out',
       once: false,
       mirror: true
     })
 
+    function loader() {
     document.querySelector("#load").style.display = "none"
     document.querySelector("#load").remove()
+    }
+   loader()
+    function toggelMenu() {
+        document.querySelector("#toggle").addEventListener("click", function () {
+            document.querySelector("#menu").classList.toggle("active")
+        })
+    }
+    toggelMenu()
   });
 

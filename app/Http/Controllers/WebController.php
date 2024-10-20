@@ -31,7 +31,7 @@ class WebController extends Controller
         ]);
 
         // Envoyer l'email
-        Mail::to('votreemail@example.com')->send(new ContactMail($request->all()));
+        Mail::to(env('APP_MAIL'))->send(new ContactMail($request->all()));
 
         // Retourner une réponse ou redirection
         return back()->with('success', 'Votre message a été envoyé avec succès !');
