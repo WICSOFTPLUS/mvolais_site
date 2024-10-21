@@ -1,9 +1,9 @@
 <footer class="w-full bg-zinc-600">
     <div class="container">
-        <div class="row flex justify-between gap-9 ">
+        <div class="row flex justify-between gap-10 ">
             <div class="col items-end">
-               <div class="logo w-[80px] ">
-                    <img class="w-full object-contain" src="{{ asset('/assets/images/logo.png') }}" alt="">
+               <div class="logo w-[80px] mb-2 ">
+                    <img class="w-full object-contain" src="{{ asset('/assets/images/logo2.jpeg') }}" alt="">
                 </div>
                 <div class="desc text-[#fffaf0] mb-3">
                     Carrefour Anador à 100 m de la Pharmacie Anador - Maroc, Yopougon - 21 BP 4260 Abidjan 21, Abidjan - Côte d’Ivoire

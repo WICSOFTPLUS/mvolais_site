@@ -23,7 +23,7 @@
                     <div class="desc w-full p-2">
                         <h2 class="text-primary2 md:text-[2rem] text-[1.3rem] mb-2 text-center font-bold">Générale</h2>
                         <p class="md:text-[15px] text-[13px] text-zinc-600 text-center">Le GROUPE M'VOLAIS SARL est une société commerciale ivoirienne spécialisée dans la fourniture de pièce detaché ou distriution.
-                        Depuis 2008 jusqu'au aujourd'hui nous touchons tous les sectuers d'activités et faisons la satisfaction de nos clients une priorité absolue! Ce qui nous a value plusieurs partenariats avec de grandes industries ivoirienne...</p>
+                        Depuis 2011 Jusqu'aujourd'hui  nous touchons tous les sectuers d'activités et faisons la satisfaction de nos clients une priorité absolue! Ce qui nous a value plusieurs partenariats avec de grandes industries ivoirienne...</p>
                     </div>
                     </div>
                     <div class="col">
@@ -43,7 +43,7 @@
                     </div>
                     <div class="col">
                     <div class="desc w-full p-2">
-                        <h2 class="text-primary2 md:text-[2rem] text-[1.3rem] mb-2 text-center font-bold">Nos philosophie</h2>
+                        <h2 class="text-primary2 md:text-[2rem] text-[1.3rem] mb-2 text-center font-bold">Notre philosophie</h2>
                         <p class="md:text-[15px] text-[13px] text-zinc-600 text-center">
                            Chez nous, l’excellence, l’innovation, et l’engagement envers nos clients sont au cœur de notre philosophie. Nous croyons en des solutions personnalisées et en un accompagnement de qualité pour aider chaque entreprise à atteindre ses objectifs et à se développer durablement.
                         </p>
@@ -57,36 +57,36 @@
         <div class="container">
             <h1 class="text-primary2 md:text-[2.5rem] text-[1.5rem] mb-2 text-center font-bold">Nos Divisions </h1>
             <h5 class="text-center md:text-[16px] text-[13px] md:w-[50%] mx-auto text-zinc-600">
-                Découvrez nos trois divisions spécialisées : Mvolais Service, qui propose des solutions innovantes pour répondre aux besoins des entreprises, O'Vation Communications, votre partenaire en stratégies de communication efficaces, et Mvolais Formations, dédié à la formation professionnelle pour renforcer les compétences de vos équipes.
+                Découvrez nos trois divisions spécialisées : M'VOLAIS Service, qui propose des solutions innovantes pour répondre aux besoins des entreprises, O'Vation Communications, votre partenaire en stratégies de communication efficaces, et M'VOLAIS Formations, dédié à la formation professionnelle pour renforcer les compétences de vos équipes.
             </h5>
             <div class="rows mb-3 " data-aos="zoom-in">
                     <div class="cols  " >
                         <div class="card bg-[#fff]  borderr p-4 text-center ">
                             <div class="content-image m-auto">
-                            <img class="" src="{{ asset('assets/images/hero.jpg') }}" alt="">
+                            <img class="w-full" src="{{ asset('assets/images/hero.jpg') }}" alt="">
                             </div>
                                 <div class="bas">
-                                    <h5 class="text-first font-semibold text-[20px] text-primary2 capitalize my-3">Mvolais service</h5>
+                                    <h5 class="text-first font-semibold text-[20px] text-primary2 capitalize my-3">M'VOLAIS service</h5>
                                 </div>
                         </div>
                     </div>
                     <div class="cols " >
                         <div class="card  borderr bg-[#fff] p-4 text-center ">
                             <div class="content-image m-auto">
-                            <img class="" src="{{ asset('assets/images/hero.jpg') }}" alt="">
+                            <img class="w-full" src="{{ asset('assets/images/ova2.jpg') }}" alt="">
                             </div>
                             <div class="bas">
-                                <h5 class="text-first font-semibold text-[20px] text-primary2 capitalize my-3">O'Vation Communications</h5>
+                                <h5 class="text-first font-semibold text-[20px] text-primary2 capitalize my-3">O'vation  communication</h5>
                             </div>
                         </div>
                     </div>
                     <div class="cols  " >
                         <div class="card  bg-[#fff] borderr p-4 text-center ">
                             <div class="content-image m-auto">
-                            <img class="" src="{{ asset('assets/images/hero.jpg') }}" alt="">
+                            <img class="w-full" src="{{ asset('assets/images/form.jpg') }}" alt="">
                             </div>
                             <div class="bas">
-                                <h5 class="text-first font-semibold text-[20px] text-primary2 capitalize ">Mvolais Formations</h5>
+                                <h5 class="text-first font-semibold text-[20px] text-primary2 capitalize ">M'VOLAIS Formations</h5>
                             </div>
                         </div>
                     </div>
@@ -103,7 +103,7 @@
                     <div class="cols  " data-aos="zoom-in">
                     <div class="card bg-[#fff] shadow-lg borderr p-4 text-center ">
                         <div class="content-image m-auto">
-                        <img class="" src="{{ asset('assets/images/hero.jpg') }}" alt="">
+                        <img class="" src="{{ asset('assets/images/ser.jpg') }}" alt="">
                         </div>
                             <div class="bas">
                                 <h5 class="text-first font-semibold text-[20px] text-primary2 capitalize my-3">Pièce détachées</h5>
@@ -115,7 +115,7 @@
                     <div class="cols " data-aos="zoom-in">
                     <div class="card shadow-lg borderr bg-[#fff] p-4 text-center ">
                         <div class="content-image m-auto">
-                        <img class="" src="{{ asset('assets/images/hero.jpg') }}" alt="">
+                        <img class="" src="{{ asset('assets/images/ser2.jpg') }}" alt="">
                         </div>
                         <div class="bas">
                             <h5 class="text-first font-semibold text-[20px] text-primary2 capitalize my-3">Equipement de Protection Individuelle</h5>
@@ -127,7 +127,7 @@
                     <div class="cols  " data-aos="zoom-in">
                     <div class="card shadow-lg bg-[#fff] borderr p-4 text-center ">
                         <div class="content-image m-auto">
-                        <img class="" src="{{ asset('assets/images/hero.jpg') }}" alt="">
+                        <img class="" src="{{ asset('assets/images/ser3.jpg') }}" alt="">
                         </div>
                         <div class="bas">
                             <h5 class="text-first font-semibold text-[20px] text-primary2 capitalize my-3">Informatique</h5>
@@ -139,7 +139,7 @@
                     <div class="cols " data-aos="zoom-in">
                     <div class="card shadow-lg borderr bg-[#fff] p-4 text-center ">
                         <div class="content-image mx-auto">
-                        <img class="" src="{{ asset('assets/images/hero.jpg') }}" alt="">
+                        <img class="" src="{{ asset('assets/images/ser4.jpg') }}" alt="">
                         </div>
                         <div class="bas mt-5">
                             <h5 class="text-first font-semibold text-[20px] text-primary2 capitalize my-3">Maintenance</h5>

@@ -31,7 +31,7 @@
                     <div class="row sm">
                         <div class="col" data-aos="fade-right">
                             <div class="content-image">
-                                <img src="{{asset('assets/images/afri4.jpg')  }}" alt="">
+                                <img src="{{asset('assets/images/el.jpg')  }}" alt="">
                             </div>
                         </div>
                         <div class="col" data-aos="fade-left">

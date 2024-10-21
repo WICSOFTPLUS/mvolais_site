@@ -12,12 +12,7 @@
                 <div class="container">
                     <h1 class="text-primary2 md:text-[2.5rem] text-[1.3rem] text-center font-bold">Ce que nous faisons</h1>
                     <p class="text-[15px] text-zinc-600 text-center	lowercase">
-                        Le GROUPE M’VOLAIS SARL est spécialisé dans la distribution de:
-                        Le GROUPE M’VOLAIS SARL est spécialisé dans la distribution de matériels de grandes marques tel que :
-                        PARKER pour les:
-                        FLEXIBLES (Miniers, Pétroliers, Hydraulique); TUYAUX; EMBOUTS; RACCORDS; FILTRES ENGINS.
-                        STRACAU pour les:
-                        ROBINETERIE POUR INDUSTRIE; MESURES CONTROLE DE NIVEAU; GENIE CLIMATIQUE; ELECTROVANNE MOTORISATION REGULATION; BRIDES RACCORDS; ADDUCTION D’EAU. MAXDRILL et KEMAICO pour les éléments de forages. PRODUITS DE DERIVATION ET TUNNELS PRODUITS DE PERCAGE DE BANC ET DE TROU LONGS.
+                        {{$service->desc}}
                     </p>
                     {{-- <div class="row">
                         <div class="col">
@@ -80,7 +75,7 @@
                     <div class="cols" >
                         <div class="card shadow-xl ">
                             <div class="content-image m-auto">
-                            <img class="" src="{{ asset('assets/images/hero.jpg') }}" alt="">
+                                <img class="w-full object-cover" src="{{ asset($data->img ?$data->img : 'assets/images/hero.jpg') }}" alt="">
                             </div>
                             <h5 class="text-first font-semibold text-[20px] text-primary2 capitalize my-3">{{$data->name}}</h5>
                             <p class="text-[15px] text-zinc-600 ">

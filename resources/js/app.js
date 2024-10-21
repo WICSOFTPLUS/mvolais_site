@@ -58,7 +58,7 @@ import './bootstrap';
 
 window.addEventListener('load', () => {
     AOS.init({
-      duration: 300,
+      duration: 250,
       easing: 'ease-in-out',
       once: false,
       mirror: true
