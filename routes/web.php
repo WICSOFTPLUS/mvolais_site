@@ -39,7 +39,7 @@ Route::get('/activite', function () {
             "id" => 1,
             "name" => "M'VOLAIS service",
             "description" => "M'VOLAIS Service propose des solutions efficaces et adaptées pour soutenir le développement des entreprises, avec un focus sur la qualité et la satisfaction client.",
-            "img" => "assets/images/ova.jpg"
+            "img" => "assets/images/ser5.jpg"
 
         ],
         (object)[
@@ -129,25 +129,36 @@ Route::get('/activite/{id}', function ($id) {
             "service" => [
                 (object)[
                     "id" => 1,
-                    "name" => "M'VOLAIS service",
-                    "description" => "lorem ipsum dolor sit amet lorem lorem2 lorem ipsum lorem ipsum dolor sit amet lorem lorem2 lorem ipsum",
-                    "img" => ""
+                    "name" => "Formation dans le domaine industriel, mécanique et techniques",
+                    "description" => "Des formations complètes en mécanique et techniques industrielles pour développer vos compétences professionnelles.",
+                    "img" => "assets/images/form2.jpg"
 
                 ],
                 (object)[
-                    "id" => 21,
-                    "name" => "O'Vation Communications",
-                    "description" => "lorem ipsum dolor sit amet lorem lorem2 lorem ipsum lorem ipsum dolor sit amet lorem lorem2 lorem ipsum",
-                    "img" => ""
-
-
+                    "id" => 2,
+                    "name" => "Formation dans le domaine public",
+                    "description" => "Des formations complètes pour maîtriser les compétences clés du secteur public, adaptées aux enjeux actuels de la gestion et des services publics.",
+                    "img" => "assets/images/form3.jpg"
                 ],
                 (object)[
-                    "id" => 21,
-                    "name" => "M'VOLAIS Formations",
-                    "description" => "lorem ipsum dolor sit amet lorem lorem2 lorem ipsum lorem ipsum dolor sit amet lorem lorem2 lorem ipsum",
-                    "img" => ""
-                ]
+                    "id" => 3,
+                    "name" => "Finance Publique",
+                    "description" => "Des formations en finance publique pour comprendre la gestion des ressources financières de l'État, optimiser les budgets publics et maîtriser les processus fiscaux et comptables.",
+                    "img" => "assets/images/form4.jpg"
+                ],
+                (object)[
+                    "id" => 4,
+                    "name" => "la Gouvernance",
+                    "description" => "Des formations en gouvernance pour acquérir les compétences nécessaires à la gestion efficace et transparente des institutions publiques, tout en promouvant la responsabilité et l'engagement civique.",
+                    "img" => "assets/images/form5.jpg"
+                ],
+                (object)[
+                    "id" => 5,
+                    "name" => "Statistique",
+                    "description" => "Formation en statistiques pour maîtriser l'analyse des données et prendre des décisions éclairées.",
+                    "img" => "assets/images/form1.jpg"
+                ],
+
             ],
         ],
 

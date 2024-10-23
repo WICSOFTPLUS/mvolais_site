@@ -63,7 +63,7 @@
                     <div class="cols  " >
                         <div class="card bg-[#fff]  borderr p-4 text-center ">
                             <div class="content-image m-auto">
-                            <img class="w-full" src="{{ asset('assets/images/hero.jpg') }}" alt="">
+                            <img class="w-full" src="{{ asset("assets/images/ser5.jpg") }}" alt="">
                             </div>
                                 <div class="bas">
                                     <h5 class="text-first font-semibold text-[20px] text-primary2 capitalize my-3">M'VOLAIS service</h5>
