@@ -66,7 +66,7 @@
                             <img class="w-full" src="{{ asset("assets/images/ser5.jpg") }}" alt="">
                             </div>
                                 <div class="bas">
-                                    <h5 class="text-first font-semibold text-[20px] text-primary2 capitalize my-3">M'VOLAIS service</h5>
+                                    <h5 class="text-first font-semibold text-[20px] text-primary2 capitalize my-3">M'VOLAIS services</h5>
                                 </div>
                         </div>
                     </div>

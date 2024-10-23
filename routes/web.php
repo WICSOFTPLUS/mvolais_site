@@ -37,7 +37,7 @@ Route::get('/activite', function () {
     $activite = [
         (object)[
             "id" => 1,
-            "name" => "M'VOLAIS service",
+            "name" => "M'VOLAIS services",
             "description" => "M'VOLAIS Service propose des solutions efficaces et adaptées pour soutenir le développement des entreprises, avec un focus sur la qualité et la satisfaction client.",
             "img" => "assets/images/ser5.jpg"
 
@@ -45,7 +45,7 @@ Route::get('/activite', function () {
         (object)[
             "id" => 2,
             "name" => "O'Vation Communications",
-            "description" => "O'Vation Communications est spécialisée dans les stratégies de communication innovantes, visant à renforcer votre image de marque et à optimiser vos relations avec vos clients.",
+            "description" => "O'VATION Communication, abrégé OVA COM, est une régie publicitaire innovante qui met en avant des solutions créatives pour optimiser votre visibilité et atteindre vos objectifs de communication.",
             "img" => "assets/images/ova.jpg"
 
 
@@ -99,26 +99,25 @@ Route::get('/activite/{id}', function ($id) {
         ],
         2 => (object)[
             "division" => "O'Vation Communications",
-            "desc" => "Chez O'Vation Communications, nous nous spécialisons dans la conception et la mise en œuvre de stratégies de communication créatives et novatrices, destinées à renforcer l’image de marque de nos clients et à améliorer leur relation avec leur audience. Notre objectif est d’aider les entreprises à se démarquer, à capter l’attention de leur public et à établir des relations solides et durables avec leurs clients.",
+            "desc" => "O'VATION Communication, abrégé OVA COM, est une régie publicitaire innovante qui met en avant des solutions créatives pour optimiser votre visibilité et atteindre vos objectifs de communication.",
             "service" => [
                 (object)[
                     "id" => 1,
                     "name" => "Vente d'espaces publicitaires",
-                    "description" => "Vente d'espaces publicitaires
-                    Sur supports affichage,  presse, audiovisuel et événementiel.",
+                    "description" => "O'VATION Communication propose la vente d'espaces publicitaires pour optimiser votre visibilité.",
                     "img" => "assets/images/ova.jpg"
                 ],
                 (object)[
                     "id" => 21,
                     "name" => "relations publiques ",
-                    "description" => "lorem ipsum dolor sit amet lorem lorem2 lorem ipsum lorem ipsum dolor sit amet lorem lorem2 lorem ipsum",
+                    "description" => "O'VATION Communication gère vos relations publiques pour renforcer votre image de marque.",
                     "img" => "assets/images/ova3.jpg"
 
                 ],
                 (object)[
                     "id" => 21,
                     "name" => "études et conseils sectoriels.",
-                    "description" => "lorem ipsum dolor sit amet lorem lorem2 lorem ipsum lorem ipsum dolor sit amet lorem lorem2 lorem ipsum",
+                    "description" => "Nous offrons des études et des conseils sectoriels pour optimiser votre stratégie et améliorer vos performances.",
                     "img" => "assets/images/ova4.jpg"
                 ]
             ],
