@@ -4,7 +4,7 @@
     <main class="activite">
         <section class="hero">
             {{-- {{$activite}} --}}
-            <div class="hero-content">
+            <div class="hero-content p-2">
                 <h2 class="text-[40px] font-extrabold uppercase">Nos activiteés</h2>
             </div>
             </section>

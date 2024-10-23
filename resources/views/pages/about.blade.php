@@ -3,7 +3,7 @@
 
     <main class="about">
         <section class="hero">
-            <div class="hero-content">
+            <div class="hero-content p-2">
                 <h2 class="md:text-[40px] text-[20px] font-extrabold uppercase" data-aos="zoom-in">A propos du GROUPE M'VOLAIS</h2>
             </div>
             </section>

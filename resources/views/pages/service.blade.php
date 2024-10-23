@@ -3,7 +3,7 @@
 
     <main class="service">
         <section class="hero">
-            <div class="hero-content">
+            <div class="hero-content p-2">
                 <h2 class="text-[40px] font-extrabold uppercase">{{$service->division}}</h2>
             </div>
             </section>

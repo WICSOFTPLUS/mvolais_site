@@ -2,7 +2,7 @@
 @section('content')
 <main class="home">
     <section class="hero">
-        <div class="hero-content">
+        <div class="hero-content p-2">
             <h1 data-aos="zoom-in" class="uppercase">Bienvenue chez Groupe M'Volais</h1>
             <p data-aos-duration="800" data-aos="zoom-in">Nous offrons des solutions sur mesure pour votre entreprise</p>
             {{-- <a href="#services" class="btn-hero">Découvrir nos services</a> --}}

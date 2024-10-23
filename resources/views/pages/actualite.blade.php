@@ -3,7 +3,7 @@
 
     <main class="actualite">
         <section class="hero">
-            <div class="hero-content">
+            <div class="hero-content p-2">
                 <h2 class="text-[40px] font-extrabold">Actualités</h2>
             </div>
             </section>
