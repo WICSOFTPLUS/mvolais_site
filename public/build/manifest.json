@@ -4,12 +4,12 @@
     "src": "public/assets/images/hero.jpg"
   },
   "resources/css/app.css": {
-    "file": "assets/app-BmWcAEt8.css",
+    "file": "assets/app-CMlGD1kQ.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/js/app.js": {
-    "file": "assets/app-B5iAJAMS.js",
+    "file": "assets/app-CmqljkHY.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true
