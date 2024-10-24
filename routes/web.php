@@ -37,7 +37,7 @@ Route::get('/activite', function () {
     $activite = [
         (object)[
             "id" => 1,
-            "name" => "M'VOLAIS services",
+            "name" => "M'VOLAIS Services",
             "description" => "M'VOLAIS Service propose des solutions efficaces et adaptées pour soutenir le développement des entreprises, avec un focus sur la qualité et la satisfaction client.",
             "img" => "assets/images/ser5.jpg"
 

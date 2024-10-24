@@ -1,6 +1,8 @@
-<nav class="navbar sticky top-0 z-10 border-t-[6px] border-primary2 bg-white flex items-center justify-between py-2 md:px-10">
+<nav class="navbar shadow-sm sticky top-0 z-10 border-t-[6px] border-primary2 bg-white flex items-center justify-between py-2 md:px-10">
 <div class="logo w-[120px]">
-    <img class="w-full object-contain" src="{{ asset('/assets/images/logo2.jpeg') }}" alt="">
+   <a href="/">
+     <img class="w-full object-contain" src="{{ asset('/assets/images/logo2.jpeg') }}" alt="">
+</a>
 </div>
 <div class="hamburger text-[25px] cursor-pointer md:hidden" id="toggle">
     <i class="uil uil-bars"></i>

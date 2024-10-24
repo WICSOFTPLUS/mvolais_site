@@ -103,7 +103,7 @@
                                 {{-- <a class="btn btnsend" id="sendMessage">Envoyer</a>
                                 <a class="" id="addloader" style="display: none"><div class="loader"></div></a> --}}
                             </div>
-                            <button type="submit" class="md:w-[200px] bg-primary my-3 p-3 rounded-md text-white font-medium">
+                            <button type="submit" class="md:w-[200px] bg-primary2 my-3 p-3 rounded-md text-white font-medium">
                                     Envoyer
                             </button>
                         </div>
