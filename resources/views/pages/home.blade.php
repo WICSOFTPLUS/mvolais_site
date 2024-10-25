@@ -185,7 +185,7 @@
                         </div>
                         <h3 class="text-[18px] text-zinc-900 font-[700]">24/7 Support</h3>
                         <p  class="text-[12px] text-[#fff]">
-                            Contactez au 27 23 50 33 72 pour d'ample information ou pour passer vos commandes
+                           Contactez-nous au 27 23 50 33 72 pour plus d'informations ou pour passer vos commandes.
                         </p>
                     </div>
                 </div>

@@ -89,7 +89,7 @@
                             </p>
                             <a href="{{ route('activite.service', ['id'=>$data->id]) }}" class="border-1 gap-2 flex justify-between border-primary2 text-primary2  max-w-max p-[12px] mt-3 rounded-md">
                                 Voir les services
-                               <i class="uil uil-arrow-right"></i>
+                                <i class="uil uil-arrow-right"></i>
                             </a>
                         </div>
                     </div>
