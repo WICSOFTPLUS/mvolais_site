@@ -57,7 +57,7 @@
         <div class="container">
             <h1 class="text-primary2 md:text-[2.5rem] text-[1.5rem] mb-2 text-center font-bold">Nos Divisions </h1>
             <h5 class="text-center md:text-[16px] text-[13px] md:w-[50%] mx-auto text-zinc-600">
-                Découvrez nos trois divisions spécialisées : M'VOLAIS Service, qui propose des solutions innovantes pour répondre aux besoins des entreprises, O'Vation Communications, votre partenaire en stratégies de communication efficaces, et M'VOLAIS Formations, dédié à la formation professionnelle pour renforcer les compétences de vos équipes.
+                Découvrez nos trois divisions spécialisées : M'VOLAIS Services, qui propose des solutions innovantes pour répondre aux besoins des entreprises, O'Vation Communications, votre partenaire en stratégies de communication efficaces, et M'VOLAIS Formations, dédié à la formation professionnelle pour renforcer les compétences de vos équipes.
             </h5>
             <div class="rows mb-3 " data-aos="zoom-in">
                     <div class="cols  " >

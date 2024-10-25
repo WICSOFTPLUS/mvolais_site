@@ -80,10 +80,10 @@
                     @foreach ($activite as $data)
                     <div class="col" >
                         <div class="card shadow-xl ">
+                            <h5 class="text-first font-semibold text-[20px] text-primary2 capitalize my-3">{{$data->name}}</h5>
                             <div class="content-image m-auto">
                             <img class="w-full" src="{{ asset($data->img) }}" alt="">
                             </div>
-                            <h5 class="text-first font-semibold text-[20px] text-primary2 capitalize my-3">{{$data->name}}</h5>
                             <p class="text-[15px] text-zinc-600 ">
                                 {{$data->description}}
                             </p>

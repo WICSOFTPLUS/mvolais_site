@@ -38,7 +38,7 @@ Route::get('/activite', function () {
         (object)[
             "id" => 1,
             "name" => "M'VOLAIS Services",
-            "description" => "M'VOLAIS Service propose des solutions efficaces et adaptées pour soutenir le développement des entreprises, avec un focus sur la qualité et la satisfaction client.",
+            "description" => "M'VOLAIS Services propose des solutions efficaces et adaptées pour soutenir le développement des entreprises, avec un focus sur la qualité et la satisfaction client.",
             "img" => "assets/images/ser5.jpg"
 
         ],
@@ -65,8 +65,8 @@ Route::get('/activite', function () {
 Route::get('/activite/{id}', function ($id) {
     $service = [
         1 => (object)[
-            "division" => "M'volais service ",
-            "desc" => "Chez M'VOLAIS Service, nous offrons des solutions sur mesure, conçues pour accompagner et accélérer le développement des entreprises. Notre engagement envers la qualité et la satisfaction de nos clients nous permet de proposer des services adaptés aux besoins spécifiques de chaque entreprise, tout en maintenant un haut niveau d'efficacité.",
+            "division" => "M'volais services ",
+            "desc" => "Chez M'VOLAIS Services , nous offrons des solutions sur mesure, conçues pour accompagner et accélérer le développement des entreprises. Notre engagement envers la qualité et la satisfaction de nos clients nous permet de proposer des services adaptés aux besoins spécifiques de chaque entreprise, tout en maintenant un haut niveau d'efficacité.",
             "service" => [
                 (object)[
                     "id" => 1,
